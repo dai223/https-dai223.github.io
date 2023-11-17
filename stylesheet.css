@@ -1,0 +1,104 @@
+.横並びA {
+	
+	display: flex;
+	justify-content: space-between;
+	
+	& .列 {
+		background-color: orange;
+		width: 120px;
+	}
+}
+
+.横並びB{
+	display: flex;
+	justify-content: space-between;
+	
+	& .広い列 {
+		background-color: lightblue;
+		width: 240px;
+	}
+	
+	& .狭い列 {
+		background-color: lightgreen;
+		width: 120px;
+	}
+}
+
+.横並びC {
+	
+	display: flex;
+	justify-content: space-between;
+	
+	& .列 {
+		background-color: pink;
+		width: 120px;
+	}
+}
+
+.横並びD {
+	
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	
+	& .列 {
+		background-color: red;
+		width: 120px;
+	}
+}
+
+
+.横並び{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0px 20px 0px;
+	
+	& .動物１{
+		border: 1.5px solid;
+		padding: 10px 10px 10px 10px;
+	}
+	& .いぬ画像{
+		width: 100px;
+		height: 100px;
+	}
+	& .文字イヌ{
+		font-size: 20px;
+	  font-weight: bold;
+	}
+	& .文字１{
+		font-size: 12px;
+	}
+	
+	& .動物２{
+		border: 1.5px solid;
+		padding: 10px 10px 10px 10px;
+	}
+	& .やく画像{
+		width: 100px;
+		height: 100px;
+	}
+	& .文字ヤク{
+		font-size: 20px;
+	  font-weight: bold;
+	}
+	& .文字2{
+		font-size: 12px;
+	}
+	
+	& .動物3{
+		border: 1.5px solid;
+		padding: 10px 10px 10px 10px;
+	}
+	& .きつね画像{
+		width: 100px;
+		height: 100px;
+	}
+	& .文字キツネ{
+		font-size: 20px;
+	  font-weight: bold;
+	}
+	& .文字３{
+		font-size: 12px;
+	}
+	
+}
